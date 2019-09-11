@@ -4,7 +4,7 @@ describe 'Deli Counter' do
   let(:other_deli) { ["Logan", "Avi", "Spencer"] }
   let(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
 
-  describe "#line" do
+  escribe "#line" do
     context "there is nobody in line" do
       it "should say the line is empty" do
         # This line checks the current standard output (your terminal screen)
